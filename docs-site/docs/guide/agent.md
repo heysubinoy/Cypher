@@ -1,6 +1,6 @@
 # Agent Features
 
-Wingman offers several agent features that cater to different use cases.
+Cypher offers several agent features that cater to different use cases.
 
 ## Vibe Mode
 
@@ -18,4 +18,4 @@ The key advantage to this mode, while it may "feel slower", is that it allows fo
 
 ## Auto Fix Linting/Import Errors
 
-Wingman now has the ability to detect linting and typescript errors and automatically fix them. You can choose to manually fix them via a button, or you can enable automatic fixes.
+Cypher now has the ability to detect linting and typescript errors and automatically fix them. You can choose to manually fix them via a button, or you can enable automatic fixes.

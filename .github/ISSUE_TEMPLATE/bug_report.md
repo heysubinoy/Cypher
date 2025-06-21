@@ -23,7 +23,7 @@ What actually happened.
 
 ### Environment
 - VSCode Version:
-- Wingman-AI Version:
+- Cypher-AI Version:
 - Operating System:
 - AI Provider being used (OpenAI/Anthropic/Ollama/etc):
 
@@ -31,6 +31,6 @@ What actually happened.
 Please provide relevant logs from VSCode:
 1. Open VSCode Command Palette (Cmd/Ctrl + Shift + P)
 2. Type "Developer: Show Output"
-3. Select "Wingman" from the dropdown menu
+3. Select "Cypher" from the dropdown menu
 4. Copy and paste the logs here
-5. Also select "Wingman Language Server" from the dropdown and include those logs
+5. Also select "Cypher Language Server" from the dropdown and include those logs

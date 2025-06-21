@@ -113,7 +113,7 @@ export default function DiffViewWithComments({
 								key={number}
 								className="p-2 border-t-2 border-t-gray-600 border-b-2 border-b-gray-600"
 							>
-								<h3 className="text-xl">Wingman</h3>
+								<h3 className="text-xl">Cypher</h3>
 								<div className="p-2">
 									<p>{comment.body}</p>
 									<div

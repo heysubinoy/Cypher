@@ -10,7 +10,7 @@ type ViewNames = {
 };
 
 const viewName: ViewNames = {
-	composer: "Wingman",
+	composer: "Cypher",
 };
 
 export default function Toolbar() {

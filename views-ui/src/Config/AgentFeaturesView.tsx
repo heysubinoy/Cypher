@@ -13,7 +13,7 @@ export type AgentFeatureViewProps = {
 // Tooltip information for each setting
 const tooltipInformation = {
 	vibeMode: "Vibe mode automatically applies file edits and executes commands. You can undo file edits.",
-	automaticallyFixDiagnostics: "When enabled, Wingman will automatically fix import and linting errors in your code, improving code quality without manual intervention.",
+	automaticallyFixDiagnostics: "When enabled, cypher will automatically fix import and linting errors in your code, improving code quality without manual intervention.",
 	playAudioAlert: "Play an audio alert on chat completion, or a change is awaiting an approval"
 };
 

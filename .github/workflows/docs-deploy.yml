@@ -33,7 +33,7 @@ jobs:
               with:
                   apiToken: ${{ secrets.CLOUD_FLARE_API_TOKEN }}
                   accountId: ${{ secrets.CLOUD_FLARE_ACCOUNT_ID }}
-                  projectName: wingman-docs
+                  projectName: Cypher-docs
                   directory: docs-site/doc_build
             - name: Outputs
               run: |

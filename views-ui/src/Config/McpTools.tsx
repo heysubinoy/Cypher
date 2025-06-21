@@ -35,7 +35,7 @@ export const MCPConfiguration = ({ mcpTools = new Map() }: MCPConfigProps) => {
                     <p className="text-sm text-[var(--vscode-descriptionForeground)] leading-relaxed">
                         Review Model Context Protocol tools that you have configured under{" "}
                         <code className="px-1.5 py-0.5 rounded font-mono text-xs bg-[var(--vscode-textCodeBlock-background)] text-[var(--vscode-foreground)]">
-                            .wingman/mcp.json
+                            .cypher/mcp.json
                         </code>
                     </p>
                 </div>

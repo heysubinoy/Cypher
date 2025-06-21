@@ -1,6 +1,6 @@
 # Canvas
 
-[Wingman](https://marketplace.visualstudio.com/items?itemName=WingMan.wing-man) will allow you to generate images from scratch or off existing images. If your AI provider supports image generation, you will see the **canvas edit** icon under the chat input.
+[Cypher](https://marketplace.visualstudio.com/items?itemName=Cypher.wing-man) will allow you to generate images from scratch or off existing images. If your AI provider supports image generation, you will see the **canvas edit** icon under the chat input.
 
 ![](/Canvas-Tool.png)
 
@@ -44,7 +44,7 @@ Use the `Insert` button, located at the top right to import an existing image on
 
 # Generating Images
 
-By default, if you have no objects selected in the canvas, Wingman will use the current `viewport` - in other words what is visible on the canvas to use as a basis for the image generation, if there are objects present on the canvas.
+By default, if you have no objects selected in the canvas, Cypher will use the current `viewport` - in other words what is visible on the canvas to use as a basis for the image generation, if there are objects present on the canvas.
 
 You can select objects using the selection tool as well, this will only send those selected objects up for image generation.
 

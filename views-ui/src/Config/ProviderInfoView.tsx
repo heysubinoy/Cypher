@@ -6,7 +6,7 @@ export const ProviderInfoView = ({ aiProvider }: InitSettings) => {
 			<h3 className="text-md font-bold">Supported Models:</h3>
 			{/* biome-ignore lint/a11y/noLabelWithoutControl: <explanation> */}
 			<label>
-				In order for models to be supported by Wingman, they must
+				In order for models to be supported by Cypher, they must
 				support tool calling capabilities. We support the following models:
 			</label>
 			{aiProvider === "Ollama" && <OllamaView />}
