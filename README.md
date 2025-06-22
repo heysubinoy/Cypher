@@ -1,89 +1,108 @@
-<p align="center" width="100%">
-    <img src="./docs/Logo.png">
-</p>
+# 🤖 Cypher AI – Your Emotion-Aware Coding Companion
 
-<h2 align="center">Wingman AI Coding Assistant</h2>
+> “Not just a coding assistant — a mentor, a holographic friend, and a mindful productivity partner.”
 
-<center>
-
-<b>
-
-[Wingman-AI](https://getwingmanai.com/) brings high quality AI agentic coding right to your computer. We support most major AI providers - OpenAI, Anthropic and Ollama which is 100% free and private.
-
-Wingman is also supports [Model Context Protocol](https://modelcontextprotocol.io/introduction) tools, allowing you to extend and integrate with a number of servers already available such as Figma or even [your own browser](https://github.com/AgentDeskAI/browser-tools-mcp)!
-
-Have a specific question? Simply highlight text in the editor and Wingman will focus there. Want Wingman to work on it's own? Give it requirements and even attach an image and let it implement complete features for you - even executing commands.
-
-</b>
-
-</center>
-
-<p align="center">
-  <img src="./docs-site/docs/public/Wingman_ChatVideo.gif" alt="Chat Demo">
-</p>
-
-<p align="center">
-  <img src="./docs-site/docs/public/Wingman_ComposeVideo.gif" alt="Compose Demo">
-</p>
-
-<h2 align="center">Documentation</h2>
-
-<center>
-
-<b> Want a new feature? Need to report an issue? [visit our GitHub](https://github.com/RussellCanfield/wingman-ai).
-
-</center>
-
-<h2 align="center">Features</h2>
-
-<center>
-
-<b> [Wingman-AI](https://getwingmanai.com/) supports advanced features such as: </b>
-
-<h3>Code completion</h3>
-Real-time code suggestions as you type
-<h3>Chat</h3>
-Agent based chat and complete code writing experience
-<h3>MCP Integration</h3>
-Integrate with MCP tools directly in Wingman, giving you the ability to extend its capabilities
-<h3>Threads</h3>
-Start a session, create new ones and even branch off an existing - allowing you to organize flows
-<h3>Document Generation</h3>
-Generate documentation for code with one click
-<h3>Refactor</h3>
-Refactor code quickly with one click
-
-</center>
-
-<br />
-<br />
-
-<p align="center">
-  <img src="./docs-site/docs/public/Chat.png" width="400" alt="Chat">
-</p>
-
-<p align="center">
-  <img src="./docs-site/docs/public/ChatWithImage.png" width="400" alt="Chat">
-</p>
-
-<p align="center">
-  <img src="./docs-site/docs/public/SettingsMCP.png" width="400" alt="Indexer">
-</p>
-
-<p align="center">
-  <img src="./docs-site/docs/public/Threads.png" width="400" alt="Indexer">
-</p>
-
-<p align="center">
-  <img src="./docs-site/docs/public/ThreadRelationships.png" width="400" alt="Indexer">
-</p>
-
-## Release Notes
-
-To see the latest release notes - [check out our releases page](https://github.com/RussellCanfield/wingman-ai/releases).
+Cypher AI is a next-generation AI-powered companion designed to make the coding experience more human, engaging, and focused. Unlike traditional developer tools that stop at code suggestions, Cypher AI brings real-time emotional awareness, distraction detection, and even physical presence through a holographic avatar — powered by Gemini’s AI.
 
 ---
 
-If you like the extension, please leave a review! If you don't, open an issue and we'd be happy to assist!
+## 🚀 Features
 
-**Enjoy!**
+### 🧠 Emotion-Aware Feedback
+- Uses Gemini’s AI to detect emotional states via your laptop webcam.
+- Encourages breaks when you're overwhelmed or feeling low.
+- Responds with motivational nudges to improve mental well-being during deep work.
+
+### 📵 Distraction Detection
+- Detects real-world distractions like picking up your phone using object recognition.
+- Sends real-time prompts to help you regain focus and build better coding habits.
+
+### 💬 Intelligent Coding Support
+- Understands live code context just like GitHub Copilot.
+- Provides fixes, feedback, and mentor-style guidance.
+- Can simulate technical interviews by asking context-relevant coding questions.
+
+### 🌈 Holographic Avatar Projection
+- The AI companion is visualized as a hologram using a glass pane and a projector.
+- Brings a physical, lifelike presence to your workspace.
+- Makes the assistant feel like a real companion — not just text on a screen.
+
+---
+
+## 🧩 Tech Stack
+
+- 🧠 Gemini’s AI – for emotion + object detection and natural response generation
+- 🧪 Python (Flask) – backend logic and WebSocket communication
+- 💻 Electron – UI and frontend integration
+- 🔍 YOLO (Experimental Phase) – initial object detection testing
+- 🪞 Custom hardware setup – hologram projection with transparent pane + projector
+
+---
+
+## 🔗 Repositories
+
+- 💡 Core Emotion + Object Detection Backend  
+  [h4b-emotion](https://github.com/subh05sus/h4b-emotion)
+
+- 🧠 Central Integration & Logic Flow  
+  [h4b2025](https://github.com/subh05sus/h4b2025)
+
+- 🖥️ Frontend & Electron UI System  
+  [h4b-electron](https://github.com/subh05sus/h4b-electron)
+
+- 🧪 Early Prototypes & R&D Experiments  
+  [Cypher](https://github.com/heysubinoy/Cypher)
+
+---
+
+## 🛠 Challenges We Ran Into
+
+- We experimented with several emotion and object detection models before selecting Gemini’s AI, which gave us the most robust results tailored to our use case.
+- Building a real-time webcam-to-backend pipeline with low latency was technically tricky and required threading, frame optimization, and a lot of testing.
+- Setting up the hologram physically — aligning projections on a glass pane for clarity and realism — was a first-time experience. It was challenging but rewarding once we got it working smoothly.
+- Coordinating different modules under time pressure was difficult, especially when we lost our team leader to… an extended bathroom emergency (yes, real story) due to stomach issues. That momentary manpower dip made things a bit chaotic — but we pulled through together.
+
+---
+
+## 🎯 Why This Matters
+
+Coding today can feel robotic and isolating. Most tools help you write better code — but they don’t check in with how you’re doing, how focused you are, or what you're struggling with emotionally.
+
+Cypher AI is built for:
+- Students coding late into the night.
+- Developers preparing for interviews.
+- Anyone who wants more than a silent tool — a friend, a guide, a voice.
+
+It’s about better code — but also a better coding experience.
+
+---
+
+## 📸 Sneak Peek
+
+> (Add screenshots or hologram setup demo video here)
+
+---
+
+## 🔮 Future Plans
+
+- Add voice-based interactions using speech recognition and TTS.
+- Integrate support for multiple AI “personas” (e.g. strict mentor, chill friend, etc.)
+- Build desktop-first companion apps for students and remote devs.
+- Enable journaling/mood-tracking features alongside code logs.
+
+---
+
+## 👥 Team
+
+Built with caffeine, chaos, and care at Hack4Bengal 2025 ❤️  
+Big love to everyone who stayed up debugging, testing, and re-aligning the hologram pane 42 times.
+
+---
+
+## 📄 License
+
+MIT License – Feel free to fork, remix, improve, and build your own companion.
+
+---
+
+Made with 💡, Gemini’s AI, and a little help from the bathroom-bound team leader.
